@@ -1,13 +1,13 @@
 
 {% extends "layout.html" %}
 {% block content %}
-<div class="col-xs-7 col-sm-3 col-md-3 sidebar sidebar-left sidebar-animate sidebar-md-show" style="width:200px; float:left;">
+<div class="col-xs-7 col-sm-3 col-md-3 sidebar sidebar-left sidebar-animate sidebar-md-show list-group" style="width:200px; float:left;">
   <ul class="nav nav-pills nav-stacked sidebar" role="tablist">
       <li><a href="{{ url_for('minion.status') }}">概况</a></li>
       <li><a>硬件配置</a></li>
   </ul>
 </div>
-<table class="table" style="width:800px; float:right;">
+<table class="table" style="width:800px; float:left;">
     <caption><h4>Minion服务器部署情况</h4></caption>
   <thead>
     <tr>

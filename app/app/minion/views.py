@@ -6,8 +6,6 @@ from flask import render_template
 from flask import request
 from flask import url_for
 from flask_login import login_required
-from flask_login import login_user
-from flask_login import logout_user
 
 blueprint = Blueprint('minion', __name__,
                       url_prefix='/minions', static_folder='../static')

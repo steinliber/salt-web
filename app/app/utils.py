@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Helper utilities and decorators."""
 from flask import flash
+import salt.client
 
 
 def flash_errors(form, category='warning'):
